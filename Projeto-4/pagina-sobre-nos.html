@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./pagina-sobre-nos.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=League Spartan:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto Sans Carian:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="pagina-sobrenos">
+      <div class="navbar-parent">
+        <div class="navbar">
+          <img
+            class="logo-icon1"
+            alt=""
+            src="./public/logo@2x.png"
+            id="logoImage"
+          />
+
+          <div class="component-11">
+            <a class="login1" href="./tela-login.html" id="login">Login</a>
+            <a class="login1" href="./pagina-sobre-nos.html" id="sobre"
+              >Sobre</a
+            >
+            <a class="login1" href="./pagina-contato.html" id="contato"
+              >Contato</a
+            >
+          </div>
+        </div>
+        <div class="central-txt-wrapper">
+          <div class="central-txt">
+            <div class="component-4">
+              <div class="sobre-ns">Sobre nós</div>
+            </div>
+            <div class="diy-royalt-a-plataforma-perf-wrapper">
+              <div class="diy-royalt-a-container">
+                <p class="diy-royalt-a">
+                  DIY_Royalt é a plataforma perfeita para os amantes de música
+                  que buscam uma experiência personalizada e autêntica. Aqui,
+                  você encontrará uma ampla seleção de músicas independentes e
+                  underground, além de dicas e tutoriais para produzir suas
+                  próprias faixas.
+                </p>
+                <p class="diy-royalt-a">&nbsp;</p>
+                <p class="diy-royalt-a">
+                  Se você está cansado das mesmas músicas comerciais que tocam
+                  em todas as rádios e plataformas de streaming, o DIY_Royalt é
+                  para você. Nosso site apresenta uma coleção exclusiva de
+                  músicas independentes de todo o mundo, oferecendo uma ampla
+                  variedade de gêneros musicais para você explorar.
+                </p>
+                <p class="diy-royalt-a">&nbsp;</p>
+                <p class="diy-royalt-a">
+                  Quer você seja um músico iniciante ou experiente, o DIY_Royalt
+                  é um lugar para encontrar inspiração e aprimorar suas
+                  habilidades musicais. Com uma variedade de recursos, desde
+                  tutoriais de produção musical até análises de tendências do
+                  mercado, estamos comprometidos em ajudar músicos de todos os
+                  níveis a alcançar seu potencial.
+                </p>
+                <p class="diy-royalt-a">&nbsp;</p>
+                <p class="diy-royalt-a">&nbsp;</p>
+                <p class="diy-royalt-a">
+                  O DIY_Royalt é uma comunidade vibrante e diversa de músicos,
+                  fãs de música e profissionais da indústria. Junte-se a nós
+                  para descobrir novos talentos musicais, compartilhar suas
+                  próprias músicas e colaborar com outros artistas em projetos
+                  criativos e inovadores.
+                </p>
+                <p class="diy-royalt-a">&nbsp;</p>
+                <p class="diy-royalt-a">
+                  Aqui, você pode se conectar com pessoas que compartilham sua
+                  paixão pela música e encontrar novas oportunidades para
+                  crescer e se destacar.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var logoImage = document.getElementById("logoImage");
+      if (logoImage) {
+        logoImage.addEventListener("click", function (e) {
+          window.location.href = "./tela-inicio.html";
+        });
+      }
+      
+      var login = document.getElementById("login");
+      if (login) {
+        login.addEventListener("click", function (e) {
+          window.location.href = "./tela-login.html";
+        });
+      }
+      
+      var sobre = document.getElementById("sobre");
+      if (sobre) {
+        sobre.addEventListener("click", function (e) {
+          window.location.href = "./pagina-sobre-nos.html";
+        });
+      }
+      
+      var contato = document.getElementById("contato");
+      if (contato) {
+        contato.addEventListener("click", function (e) {
+          window.location.href = "./pagina-contato.html";
+        });
+      }
+      </script>
+  </body>
+</html>

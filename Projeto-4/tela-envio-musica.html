@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./tela-envio-musica.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=League Spartan:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto Sans Carian:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="tela-enviomusica">
+      <img
+        class="tela-enviomusica-child"
+        alt=""
+        src="./public/frame-64@2x.png"
+      />
+
+      <div class="tela-enviomusica-inner">
+        <div class="envie-sua-musica-parent">
+          <div class="envie-sua-musica">Envie sua Musica!</div>
+          <div class="frame-parent3">
+            <div class="senha-parent">
+              <input class="senha2" type="text" />
+
+              <input class="senha2" type="text" />
+            </div>
+            <div class="component-2-container">
+              <input class="component-22" type="file" />
+
+              <button class="component-3" id="component3">
+                <div class="component-3-child"></div>
+                <div class="login5">Enviar</div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var component3 = document.getElementById("component3");
+      if (component3) {
+        component3.addEventListener("click", function (e) {
+          window.location.href = "./pagina-artista.html";
+        });
+      }
+      </script>
+  </body>
+</html>

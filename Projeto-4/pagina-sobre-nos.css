@@ -1,0 +1,108 @@
+.login1,
+.logo-icon1 {
+  position: relative;
+  cursor: pointer;
+}
+.logo-icon1 {
+  width: 158px;
+  height: 138px;
+  object-fit: cover;
+}
+.login1 {
+  text-decoration: none;
+  color: inherit;
+  text-shadow: 1px 0 0#000, 0 1px 0#000, -1px 0 0#000, 0-1px 0#000;
+}
+.component-11,
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.component-11 {
+  padding: 0 var(--padding-base);
+  gap: var(--gap-13xl);
+}
+.navbar {
+  align-self: stretch;
+  overflow: hidden;
+  flex-wrap: wrap;
+  padding: 0 var(--padding-13xl);
+}
+.sobre-ns {
+  position: relative;
+}
+.component-4 {
+  width: 213px;
+  border-radius: var(--br-xl);
+  background-color: rgba(50, 50, 50, 0.91);
+  height: 67px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-7xs) var(--padding-base);
+  box-sizing: border-box;
+}
+.diy-royalt-a {
+  margin: 0;
+}
+.diy-royalt-a-container {
+  align-self: stretch;
+  position: relative;
+}
+.central-txt,
+.central-txt-wrapper,
+.diy-royalt-a-plataforma-perf-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.diy-royalt-a-plataforma-perf-wrapper {
+  border-radius: 24px;
+  background-color: rgba(50, 50, 50, 0.9);
+  padding: 40px var(--padding-5xl);
+  text-align: center;
+  font-size: var(--font-size-5xl);
+}
+.central-txt,
+.central-txt-wrapper {
+  overflow: hidden;
+}
+.central-txt {
+  padding: var(--padding-13xl) var(--padding-5xl);
+  gap: var(--gap-5xl);
+}
+.central-txt-wrapper {
+  font-size: var(--font-size-21xl);
+}
+.navbar-parent,
+.pagina-sobrenos {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.navbar-parent {
+  align-self: stretch;
+  align-items: center;
+  background-image: url(./public/frame-29@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-height: 1024px;
+}
+.pagina-sobrenos {
+  width: 100%;
+  position: relative;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-nunito);
+}

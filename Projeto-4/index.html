@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=League Spartan:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto Sans Carian:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="tela-inicio">
+      <div class="frame-parent">
+        <div class="logo-parent">
+          <img class="logo-icon" alt="" src="./public/logo@2x.png" />
+
+          <div class="component-1">
+            <a class="login" href="./tela-login.html" id="login">Login</a>
+            <a class="login" href="./pagina-sobre-nos.html" id="sobre">Sobre</a>
+            <a class="login" href="./pagina-contato.html" id="contato"
+              >Contato</a
+            >
+          </div>
+        </div>
+        <div class="central-wrapper">
+          <div class="central">
+            <div class="junte-se-container">
+              <p class="junte-se">Junte - se a nós nesta jornada musical</p>
+              <p class="junte-se">emocionante!</p>
+            </div>
+            <div class="instance-parent">
+              <button class="ola-woewoeq-wrapper" id="frameButton">
+                <div class="ola-woewoeq">Login</div>
+              </button>
+              <button class="ola-woewoeq-wrapper">
+                <div class="ola-woewoeq">Escute Agora</div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var login = document.getElementById("login");
+      if (login) {
+        login.addEventListener("click", function (e) {
+          window.location.href = "./tela-login.html";
+        });
+      }
+      
+      var sobre = document.getElementById("sobre");
+      if (sobre) {
+        sobre.addEventListener("click", function (e) {
+          window.location.href = "./pagina-sobre-nos.html";
+        });
+      }
+      
+      var contato = document.getElementById("contato");
+      if (contato) {
+        contato.addEventListener("click", function (e) {
+          window.location.href = "./pagina-contato.html";
+        });
+      }
+      
+      var frameButton = document.getElementById("frameButton");
+      if (frameButton) {
+        frameButton.addEventListener("click", function (e) {
+          window.location.href = "./tela-login.html";
+        });
+      }
+      </script>
+  </body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./tela-login.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=League Spartan:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto Sans Carian:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="tela-login">
+      <img class="logo-icon3" alt="" src="./public/logo@2x.png" />
+  
+      <div class="tela-login-inner">
+        <div class="seja-bem-vindo-parent">
+          <div class="seja-bem-vindo">Seja Bem-Vindo!</div>
+          
+          <form id="loginForm" action="login.php" method="POST">
+            <input class="e-mail" name="email" type="email" />
+            <input class="senha" name="senha" type="password" />
+  
+            <div class="crop-din-parent">
+              <div class="crop-din">
+                <img class="vector-icon" alt="" />
+                <img class="vector-icon1" alt="" src="./public/vector.svg" />
+                <input class="rectangle-input" name="lembreme" checked="{true}" type="checkbox" />
+              </div>
+              <div class="lembre-me-wrapper">
+                <div class="lembre-me">Lembre-me</div>
+              </div>
+            </div>
+  
+            <div class="boto-parent">
+              <button type="submit" class="boto">
+                <div class="entrar">Entrar</div>
+              </button>
+            </div>
+          </form>
+  
+          <div class="esqueceu-sua-senha">
+            <a href="./pagina-esqueceu-senha.html" id="esqueceuSuaSenha">Esqueceu sua senha?</a>
+            <a href="./pagina-crie-conta.html" id="crieSuaConta">Crie sua conta!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  
+    <script>
+      var esqueceuSuaSenha = document.getElementById("esqueceuSuaSenha");
+      if (esqueceuSuaSenha) {
+        esqueceuSuaSenha.addEventListener("click", function (e) {
+          window.location.href = "./pagina-esqueceu-senha.html";
+        });
+      }
+      
+      var crieSuaConta = document.getElementById("crieSuaConta");
+      if (crieSuaConta) {
+        crieSuaConta.addEventListener("click", function (e) {
+          window.location.href = "./pagina-crie-conta.html";
+        });
+      }
+      </script>
+  </body>
+</html>

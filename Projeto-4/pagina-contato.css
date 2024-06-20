@@ -1,0 +1,159 @@
+.logo-icon2 {
+  width: 158px;
+  position: relative;
+  height: 138px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.login2 {
+  letter-spacing: 0.1em;
+}
+.login2,
+.sobre2 {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  text-shadow: 1px 0 0#000, 0 1px 0#000, -1px 0 0#000, 0-1px 0#000;
+  cursor: pointer;
+}
+.component-12,
+.logo-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.component-12 {
+  width: 364px;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+}
+.logo-group {
+  align-self: stretch;
+  overflow: hidden;
+  flex-wrap: wrap;
+  gap: var(--gap-3xs);
+}
+.estudantes1 {
+  position: relative;
+}
+.titulo {
+  border-radius: 16px;
+  background-color: var(--color-gainsboro);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base);
+  font-size: var(--font-size-21xl);
+}
+.alunos-da-turma {
+  margin: 0;
+}
+.alunos-da-turma-container {
+  align-self: stretch;
+  position: relative;
+  color: var(--color-white);
+}
+.mariaclara-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro);
+}
+.maria-clara {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+}
+.mariaclara {
+  text-decoration: none;
+  width: 184px;
+  position: relative;
+  height: 78px;
+  color: inherit;
+}
+.fabio-fatureto,
+.gabriel-leito {
+  position: absolute;
+  top: 30px;
+  left: 31px;
+}
+.fabio-fatureto {
+  top: 25px;
+  left: 27px;
+}
+.vinicus-takashi1 {
+  position: absolute;
+  top: 19px;
+  left: 23px;
+}
+.vinicus-takashi {
+  text-decoration: none;
+  width: 184px;
+  position: relative;
+  height: 72px;
+  color: inherit;
+}
+.estudantes,
+.estudantes-do-trabalho,
+.estudantes-wrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.estudantes-do-trabalho {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-5xl);
+}
+.estudantes,
+.estudantes-wrapper {
+  flex: 1;
+}
+.estudantes {
+  flex-direction: column;
+  gap: 18px;
+}
+.estudantes-wrapper {
+  overflow: hidden;
+  flex-direction: row;
+  padding: 0 var(--padding-5xl);
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.frame-group,
+.pagina-contato {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-group {
+  align-self: stretch;
+  height: 1024px;
+  flex-shrink: 0;
+  background-image: url(./public/frame-32@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-height: 1024px;
+}
+.pagina-contato {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-nunito);
+}

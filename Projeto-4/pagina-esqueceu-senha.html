@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./pagina-esqueceu-senha.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=League Spartan:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto Sans Carian:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="pagina-esqueceusenha">
+      <img
+        class="pagina-esqueceusenha-child"
+        alt=""
+        src="./public/logo@2x.png"
+      />
+
+      <div class="pagina-esqueceusenha-inner">
+        <div class="seja-bem-vindo-group">
+          <div class="seja-bem-vindo1">Seja Bem-Vindo!</div>
+          <div class="no-tem-problema-container">
+            <p class="no-tem-problema">Não tem problema.</p>
+            <p class="no-tem-problema">
+              Digite seu email para criar uma nova senha!
+            </p>
+          </div>
+          <input class="e-mail1" type="email" />
+
+          <div class="component-2-parent">
+            <button class="component-2" id="component2">
+              <div class="component-2-child"></div>
+              <div class="login3">Nova Senha</div>
+            </button>
+            <a class="j-tenho-conta" href="./tela-login.html" id="jTenhoConta"
+              >Já tenho conta? Login!</a
+            >
+            <a
+              class="j-tenho-conta"
+              href="./pagina-crie-conta.html"
+              id="crieConta"
+              >Crie conta!</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var component2 = document.getElementById("component2");
+      if (component2) {
+        component2.addEventListener("click", function (e) {
+          window.location.href = "./tela-biblioteca.html";
+        });
+      }
+      
+      var jTenhoConta = document.getElementById("jTenhoConta");
+      if (jTenhoConta) {
+        jTenhoConta.addEventListener("click", function (e) {
+          window.location.href = "./tela-login.html";
+        });
+      }
+      
+      var crieConta = document.getElementById("crieConta");
+      if (crieConta) {
+        crieConta.addEventListener("click", function (e) {
+          window.location.href = "./pagina-crie-conta.html";
+        });
+      }
+      </script>
+  </body>
+</html>

@@ -1,0 +1,154 @@
+.pagina-crieconta-child {
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  height: 485.8px;
+  object-fit: cover;
+  min-width: 320px;
+}
+.criar-conta {
+  position: relative;
+}
+.nome {
+  border: 1px solid var(--color-gray-200);
+  outline: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-mini);
+  background-color: var(--color-whitesmoke);
+  flex: 1;
+  border-radius: var(--br-2xs);
+  box-sizing: border-box;
+  height: 44px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-base);
+  color: var(--color-gray-100);
+}
+.e-mail-parent,
+.e-mail3,
+.frame-parent2 {
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+}
+.e-mail-parent {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-13xl);
+}
+.e-mail3,
+.frame-parent2 {
+  flex-direction: column;
+}
+.e-mail3 {
+  border: 1px solid var(--color-gray-200);
+  outline: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-mini);
+  background-color: var(--color-whitesmoke);
+  border-radius: var(--br-2xs);
+  box-sizing: border-box;
+  height: 44px;
+  align-items: flex-start;
+  padding: var(--padding-base);
+  color: var(--color-gray-100);
+}
+.frame-parent2 {
+  overflow: hidden;
+  align-items: center;
+  gap: var(--gap-13xl);
+}
+.component-2-item {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-33xl);
+  background-color: var(--color-dimgray-200);
+}
+.login4 {
+  position: absolute;
+  height: 43.45%;
+  width: 31.4%;
+  top: 13.1%;
+  left: 35.24%;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-noto-sans-carian);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+}
+.component-21,
+.j-tenho-conta1 {
+  position: relative;
+  cursor: pointer;
+}
+.component-21 {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 164px;
+  height: 29px;
+}
+.j-tenho-conta1 {
+  text-decoration: none;
+  color: inherit;
+}
+.component-2-group {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  text-align: center;
+  font-size: var(--font-size-4xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-noto-sans-carian);
+}
+.criar-conta-parent {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-black);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-33xl) var(--padding-5xl);
+  gap: var(--gap-13xl);
+  min-height: 715px;
+}
+.criar-conta-parent,
+.pagina-crieconta,
+.pagina-crieconta-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.pagina-crieconta-inner {
+  flex: 1;
+  flex-direction: column;
+  padding: 0 var(--padding-5xl);
+  min-width: 420px;
+  max-width: 580px;
+}
+.pagina-crieconta {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(243.18deg, #ffed48 7.03%, #ff51f3 88.53%);
+  overflow: hidden;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: var(--padding-61xl);
+  gap: var(--gap-13xl);
+  min-height: 1024px;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-nunito);
+}

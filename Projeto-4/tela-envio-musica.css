@@ -1,0 +1,124 @@
+.tela-enviomusica-child {
+  width: 400px;
+  height: 485.8px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.envie-sua-musica {
+  position: relative;
+}
+.senha-parent,
+.senha2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.senha2 {
+  border: 1px solid var(--color-gray-200);
+  outline: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-mini);
+  background-color: var(--color-whitesmoke);
+  width: 397px;
+  border-radius: var(--br-2xs);
+  box-sizing: border-box;
+  height: 44px;
+  align-items: flex-start;
+  padding: var(--padding-base);
+  color: var(--color-gray-100);
+}
+.senha-parent {
+  align-items: center;
+  gap: var(--gap-3xs);
+}
+.component-22 {
+  width: 185px;
+  position: relative;
+  height: 29px;
+}
+.component-3-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-33xl);
+  background-color: var(--color-dimgray-200);
+}
+.login5 {
+  position: absolute;
+  top: 13.1%;
+  left: 28.98%;
+  font-size: 19px;
+  font-family: var(--font-noto-sans-carian);
+  color: var(--color-white);
+  text-align: center;
+}
+.component-3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 127px;
+  position: relative;
+  height: 29px;
+}
+.component-2-container {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.envie-sua-musica-parent,
+.frame-parent3 {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: column;
+  gap: var(--gap-13xl);
+}
+.frame-parent3 {
+  height: 338px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.envie-sua-musica-parent {
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-black);
+  padding: var(--padding-33xl) var(--padding-5xl);
+}
+.envie-sua-musica-parent,
+.tela-enviomusica,
+.tela-enviomusica-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tela-enviomusica-inner {
+  flex: 1;
+  flex-direction: column;
+  padding: 0 var(--padding-5xl);
+}
+.tela-enviomusica {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(243.18deg, #ff51f3 7.26%, #ffed48 88.94%);
+  height: 1024px;
+  overflow: hidden;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 124px;
+  box-sizing: border-box;
+  gap: 129px;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-nunito);
+}

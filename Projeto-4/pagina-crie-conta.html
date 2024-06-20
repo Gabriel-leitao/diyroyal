@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+  <link rel="stylesheet" href="./global.css" />
+  <link rel="stylesheet" href="./pagina-crie-conta.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=League Spartan:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto Sans Carian:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" />
+</head>
+<body>
+<div class="pagina-crieconta">
+  <img class="pagina-crieconta-child" alt="" src="./public/frame-43@2x.png" />
+
+  <div class="pagina-crieconta-inner">
+    <div class="criar-conta-parent">
+      <div class="criar-conta">Criar conta!</div>
+      <form method="POST" action="criacao_conta.php"> <!-- Formulário enviado para um script PHP -->
+        <div class="frame-parent2">
+          <div class="e-mail-parent">
+            <input class="nome"  type="text" name="nome" placeholder="Nome" required />
+                    <!--e-mail2-->
+            <input class="email" type="email" name="email" placeholder="E-mail" required />
+                    <!--e-mail2-->
+          </div>
+          <input class="senha" type="password" name="senha" placeholder="Senha" required />
+                <!--e-mail3-->
+          <input class="e-mail3" type="password" name="confirmar_senha" placeholder="Confirmar Senha" required />
+                <!--e-mail3-->
+        </div>
+        <div class="component-2-group">
+          <button class="component-21" type="submit">
+            <div class="component-2-item"></div>
+            <div class="login4">Criar</div>
+          </button>
+          <a class="j-tenho-conta1" href="./tela-login.html">Já tenho conta? Login!</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</body>
+</html>
